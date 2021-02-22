@@ -1,0 +1,90 @@
+[tool]
+[tool.poetry]
+name = "layerview"
+version = "0.1.0"
+homepage = "https://github.com/majabojarska/LayerView"
+description = "Top-level package for LayerView."
+authors = ["Maja Bojarska <majabojarska98@gmail.com>"]
+readme = "README.rst"
+license = "GPLv3"
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: Microsoft :: Windows :: Windows 10",
+    "Operating System :: MacOS",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Topic :: Multimedia :: Graphics :: 3D Rendering",
+    "Topic :: Printing",
+]
+packages = [
+    { include = "layerview" },
+    { include = "tests", format = "sdist" },
+]
+include = ["layerview/app/pyuic/**/*.py"]
+
+[tool.black]
+line-length = 88
+exclude = "layerview/app/pyuic"
+
+[tool.isort]
+multi_line_output = 3
+include_trailing_comma = true
+force_grid_wrap = 0
+use_parentheses = true
+ensure_newline_before_comments = true
+line_length = 88
+skip = "layerview/app/pyuic"
+
+[tool.pytest.ini_options]
+markers = [
+    "slow: marks tests as slow (deselect with '-m \"not slow\"')",
+]
+
+[tool.poetry.scripts]
+layerview = "layerview.cli:main"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.10"
+Panda3D = "^1.10.7"
+PyQt5 = "^5.15.2"
+numpy = "1.19.3" # Locked because of https://developercommunity.visualstudio.com/content/problem/1207405/fmod-after-an-update-to-windows-2004-is-causing-a.html
+QPanda3D = "^0.2.7"
+Pillow = "^8.0.1"
+
+[tool.poetry.dev-dependencies]
+# General
+bumpversion = { version = "*", optional = false }
+invoke = { version = "*", optional = false }
+# Test
+coverage = { version = "*", optional = false }
+tox = { version = "*", optional = false }
+pytest = { version = "*", optional = false }
+pytest-runner = { version = "^5.2", optional = false }
+# Lint
+flake8 = { version = "*", optional = false }
+# Format
+isort = { version = "*", optional = false }
+black = { version = "^20.8b1", optional = false }
+aiohttp = { version = "^3.7.2", optional = false }
+aiohttp_cors = { version = "^0.7.0", optional = false }
+# Docs
+sphinx = { version = "*", optional = false }
+sphinx-rtd-theme = { version = "^0.5.0", optional = false }
+sphinxcontrib-apidoc = { version = "^0.3.0", optional = false }
+sphinx-autobuild = { version = "^2020.9.1", optional = false }
+# Other
+ipython = { version = "^7.19.0", optional = false }
+vprof = { version = "^0.38", optional = false }
+pylint = "^2.6.0"
+matplotlib = "^3.3.3"
+scipy = "^1.6.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

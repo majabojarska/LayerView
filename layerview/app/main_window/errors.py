@@ -1,0 +1,2 @@
+class VisualizationInitError(Exception):
+    pass
