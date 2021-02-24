@@ -1,7 +1,7 @@
 [tool]
 [tool.poetry]
 name = "layerview"
-version = "0.1.1"
+version = "0.1.2"
 homepage = "https://github.com/majabojarska/LayerView"
 description = "Top-level package for LayerView."
 authors = ["Maja Bojarska <majabojarska98@gmail.com>"]
