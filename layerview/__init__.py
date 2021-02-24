@@ -1,4 +1,4 @@
-"""LayerView is a G-code visualizer and inspector."""
+"""Top-level package for LayerView."""
 
 __author__ = "Maja Bojarska"
 __email__ = "majabojarska98@gmail.com"

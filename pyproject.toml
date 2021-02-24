@@ -3,7 +3,7 @@
 name = "layerview"
 version = "0.1.2"
 homepage = "https://github.com/majabojarska/LayerView"
-description = "Top-level package for LayerView."
+description = "LayerView is a G-code visualizer and inspector."
 authors = ["Maja Bojarska <majabojarska98@gmail.com>"]
 readme = "README.rst"
 license = "GPL-3.0-only"

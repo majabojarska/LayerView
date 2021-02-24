@@ -8,6 +8,12 @@ and this project adheres to `Semantic Versioning <https://semver.org/spec/v2.0.0
 Unreleased
 ----------
 
+Changed
+~~~~~~~
+
+- Revert changes from 0.1.2.
+- Change `description` field in `pyproject.toml`.
+
 0.1.2
 -----
 
