@@ -8,11 +8,13 @@ and this project adheres to `Semantic Versioning <https://semver.org/spec/v2.0.0
 Unreleased
 ----------
 
+0.1.4
+-----
+
 Changed
 ~~~~~~~
 
 - Change GitHub actions workflow names to lowercase.
-- Improve documentation: ``README.rst``, ``LICENSE``, ``CONTRIBUTING.rst``.
 
 0.1.3
 -----
@@ -21,7 +23,7 @@ Changed
 ~~~~~~~
 
 - Revert changes from 0.1.2.
-- Change ``description`` field in ``pyproject.toml``.
+- Change `description` field in `pyproject.toml`.
 
 0.1.2
 -----
@@ -29,7 +31,7 @@ Changed
 Changed
 ~~~~~~~
 
-- Docstring for top-level package ``__init__.py``.
+- Docstring for top-level package `__init__.py`.
   Now it actually describes this package's purpose.
 
 0.1.1
@@ -38,7 +40,7 @@ Changed
 Fixed
 ~~~~~
 
-- Package licensing info: trove classifiers, ``license`` field in ``pyproject.toml``.
+- Package licensing info: trove classifiers, `license` field in `pyproject.toml`.
 
 0.1.0
 -----
