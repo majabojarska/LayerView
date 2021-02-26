@@ -125,6 +125,6 @@ $ bump2version patch # possible: major / minor / patch
 $ git push
 $ git push --tags
 
-If all CI tests pass, publish to PyPI:
+If all CI tests pass, publish to PyPI::
 
 $ poetry publish --build

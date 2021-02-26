@@ -8,6 +8,12 @@ and this project adheres to `Semantic Versioning <https://semver.org/spec/v2.0.0
 Unreleased
 ----------
 
+Changed
+~~~~~~~
+
+- Remove `license` badge from ``README.rst``.
+- Fix code block in ``CONTRIBUTING.rst``
+
 0.1.4
 -----
 
