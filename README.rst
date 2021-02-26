@@ -10,10 +10,6 @@ LayerView
     :alt: PyPI Status
     :target: https://pypi.org/project/layerview/
 
-.. image:: https://img.shields.io/github/license/majabojarska/LayerView?style=flat
-    :target: https://github.com/majabojarska/LayerView/blob/main/LICENSE
-    :alt: License
-
 .. image:: https://img.shields.io/pypi/pyversions/layerview?style=flat
     :alt: Supported Python versions
     :target: https://pypi.org/project/layerview/
