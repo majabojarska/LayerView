@@ -1,7 +1,7 @@
 [tool]
 [tool.poetry]
 name = "layerview"
-version = "0.1.4"
+version = "0.1.5"
 homepage = "https://github.com/majabojarska/LayerView"
 description = "LayerView is a G-code visualizer and inspector."
 authors = ["Maja Bojarska <majabojarska98@gmail.com>"]
