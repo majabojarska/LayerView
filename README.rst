@@ -2,28 +2,45 @@
 LayerView
 =========
 
-.. image:: https://img.shields.io/pypi/v/layerview.svg
+.. image:: https://img.shields.io/pypi/v/layerview?style=flat
     :alt: Latest package version on PyPi
-    :target: https://pypi.python.org/pypi/layerview
+    :target: https://pypi.org/project/layerview/
 
-.. image:: https://github.com/majabojarska/LayerView/actions/workflows/build.yml/badge.svg
+.. image:: https://img.shields.io/pypi/status/LayerView
+    :alt: PyPI Status
+    :target: https://pypi.org/project/layerview/
+
+.. image:: https://img.shields.io/github/license/majabojarska/LayerView?style=flat
+    :target: https://github.com/majabojarska/LayerView/blob/main/LICENSE
+    :alt: License
+
+.. image:: https://img.shields.io/pypi/pyversions/layerview?style=flat
+    :alt: Supported Python versions
+    :target: https://pypi.org/project/layerview/
+
+.. image:: https://img.shields.io/pypi/implementation/layerview?style=flat
+    :alt: Supported Python implementation
+    :target: https://pypi.org/project/layerview/
+
+.. image:: https://img.shields.io/github/workflow/status/majabojarska/LayerView/build?label=build&style=flat
     :alt: LayerView build status on GitHub Actions
     :target: https://github.com/majabojarska/LayerView/actions/workflows/build.yml
 
-.. image:: https://github.com/majabojarska/LayerView/actions/workflows/docs.yml/badge.svg
+.. image:: https://img.shields.io/github/workflow/status/majabojarska/LayerView/docs?label=docs&style=flat
     :alt: Documentation build status on GitHub Actions
     :target: https://github.com/majabojarska/LayerView/actions/workflows/docs.yml
 
-.. image:: https://github.com/majabojarska/LayerView/actions/workflows/lint.yml/badge.svg
+.. image:: https://img.shields.io/github/workflow/status/majabojarska/LayerView/lint?label=lint&style=flat
     :alt: Code linting status on GitHub Actions
     :target: https://github.com/majabojarska/LayerView/actions/workflows/lint.yml
 
-.. image:: https://readthedocs.org/projects/layerview/badge/?version=latest
-    :target: https://layerview.readthedocs.io/en/latest/?badge=latest
+.. image:: https://img.shields.io/readthedocs/layerview?label=Read%20the%20Docs&style=flat
+    :target: https://layerview.readthedocs.io/en/latest/
     :alt: Read the Docs documentation Status
 
 .. image:: https://github.com/majabojarska/LayerView/raw/main/docs/_static/app.png
     :alt: Main window of LayerView application.
+    :target: https://pypi.org/project/layerview/
 
 LayerView is a G-code file visualizer and inspector.
 
@@ -45,14 +62,32 @@ Features
 * Hardware accelerated 3D rendering via `Panda3D`_.
 * Runs on x86_64 variants of Linux, Windows, MacOS.
 
-Installation
-------------
+Quickstart
+----------
 
-LayerView can be installed via pip.
+Install the latest LayerView package via pip:
 
 .. code-block:: console
 
-    $ pip install layerview
+    pip install -U layerview
+
+Run LayerView:
+
+.. code-block:: console
+
+    layerview
+
+See the `full documentation <https://layerview.readthedocs.io/en/latest/index.html>`_
+for more details on `installation <https://layerview.readthedocs.io/en/latest/installation.html>`_
+and `usage <https://layerview.readthedocs.io/en/latest/usage.html>`_.
+
+Contributing
+------------
+
+Contributions are welcome, and they are greatly appreciated!
+Every little bit helps, and credit will always be given.
+See the `Contributing <https://layerview.readthedocs.io/en/latest/contributing.html>`_
+page for more details on how to contribute to this project.
 
 Credits
 -------
