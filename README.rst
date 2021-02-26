@@ -62,14 +62,32 @@ Features
 * Hardware accelerated 3D rendering via `Panda3D`_.
 * Runs on x86_64 variants of Linux, Windows, MacOS.
 
-Installation
-------------
+Quickstart
+----------
 
-LayerView can be installed via pip.
+Install the latest LayerView package via pip:
 
 .. code-block:: console
 
-    $ pip install layerview
+    pip install -U layerview
+
+Run LayerView:
+
+.. code-block:: console
+
+    layerview
+
+See the `full documentation <https://layerview.readthedocs.io/en/latest/index.html>`_
+for more details on `installation <https://layerview.readthedocs.io/en/latest/installation.html>`_
+and `usage <https://layerview.readthedocs.io/en/latest/usage.html>`_.
+
+Contributing
+------------
+
+Contributions are welcome, and they are greatly appreciated!
+Every little bit helps, and credit will always be given.
+See the `Contributing <https://layerview.readthedocs.io/en/latest/contributing.html>`_
+page for more details on how to contribute to this project.
 
 Credits
 -------
