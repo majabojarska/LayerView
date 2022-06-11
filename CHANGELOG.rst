@@ -8,6 +8,17 @@ and this project adheres to `Semantic Versioning <https://semver.org/spec/v2.0.0
 Unreleased
 ----------
 
+Changed
+~~~~~~~
+
+- Dependency version maintenance.
+
+    - Upgrade ``numpy`` to ``^1.22.4``.
+
+    - Pin ``Panda3D`` to ``1.10.7``.
+
+    - Pin ``QPanda3D`` to ``0.2.8``.
+
 0.1.5
 -----
 
