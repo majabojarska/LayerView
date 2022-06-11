@@ -92,8 +92,7 @@ class BuildPlateNodeBuilder(NodeBuilder):
     _PATH_TEXTURE = Filename.fromOsSpecific(
         str(
             (Path(__file__).parent / "assets/textures/layerview.png")
-            .absolute()
-            .as_posix()
+            .resolve()
         )
     )
     _TEXTURE_OPACITY = 0.3
