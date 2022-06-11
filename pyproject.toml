@@ -50,10 +50,10 @@ layerview = "layerview.cli:main"
 
 [tool.poetry.dependencies]
 python = ">=3.8,<3.10"
-Panda3D = "^1.10.7"
+Panda3D = "1.10.7"
 PyQt5 = "^5.15.2"
-numpy = "1.19.3" # Locked because of https://developercommunity.visualstudio.com/content/problem/1207405/fmod-after-an-update-to-windows-2004-is-causing-a.html
-QPanda3D = "^0.2.7"
+numpy = "^1.22.4"
+QPanda3D = "0.2.8"
 Pillow = "^8.0.1"
 
 [tool.poetry.dev-dependencies]
