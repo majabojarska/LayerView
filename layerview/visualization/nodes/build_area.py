@@ -90,11 +90,7 @@ class BuildPlateNodeBuilder(NodeBuilder):
 
     # noinspection PyTypeChecker
     _PATH_TEXTURE = Filename.fromOsSpecific(
-        str(
-            (Path(__file__).parent / "assets/textures/layerview.png")
-            .absolute()
-            .as_posix()
-        )
+        str((Path(__file__).parent / "assets/textures/layerview.png").resolve())
     )
     _TEXTURE_OPACITY = 0.3
     _TEXTURE_SCALE = 0.75
