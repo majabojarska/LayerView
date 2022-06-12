@@ -48,7 +48,7 @@ def format(c, check=False):
     """Format code."""
     python_dirs_string = " ".join(PYTHON_DIRS)
     # Run isort
-    isort_options = f"--recursive {'--check-only --diff' if check else ''}"
+    isort_options = "--check-only --diff" if check else ''
     _run(c, f"isort {isort_options} {python_dirs_string}")
     # Run black
     black_options = "--diff --check" if check else ""
