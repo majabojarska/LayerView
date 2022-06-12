@@ -69,11 +69,11 @@ pytest-runner = { version = "^5.2", optional = false }
 pylint = "^2.14.1"
 # Format
 isort = { version = "^5.10.1", optional = false }
-black = { version = "^20.8b1", optional = false }
+black = { version = "^22.3.0", optional = false }
 aiohttp = { version = "^3.7.2", optional = false }
 aiohttp_cors = { version = "^0.7.0", optional = false }
 # Docs
-sphinx = { version = "*", optional = false }
+sphinx = { version = "^4.5.0", optional = false }
 sphinx-rtd-theme = { version = "^0.5.0", optional = false }
 sphinxcontrib-apidoc = { version = "^0.3.0", optional = false }
 sphinx-autobuild = { version = "^2020.9.1", optional = false }
