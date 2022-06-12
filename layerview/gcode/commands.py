@@ -84,7 +84,7 @@ class Move(CommandWithParams, ABC):
 
 
 class LineMove(Move):
-    """Generic Line Move """
+    """Generic Line Move"""
 
     param_letters = utils.str_to_chars("xyzefhrs")
 
@@ -194,7 +194,7 @@ class SetTemperatureExtruder(CommandWithParams, ABC):
 
 
 class M104(SetTemperatureExtruder):
-    """Set Extruder Temperature """
+    """Set Extruder Temperature"""
 
     param_letters = utils.str_to_chars("srd")
 
@@ -214,7 +214,7 @@ class M104(SetTemperatureExtruder):
 
 
 class M109(SetTemperatureExtruder):
-    """Set Extruder Temperature and Wait """
+    """Set Extruder Temperature and Wait"""
 
     param_letters = utils.str_to_chars("srt")
 

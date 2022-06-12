@@ -21,7 +21,7 @@ from layerview.visualization.world.world import CameraMode, ColoringMode
 
 
 class View(QMainWindow):
-    """Abstract View """
+    """Abstract View"""
 
     # Widgets
     changed_camera_mode: pyqtSignal = pyqtSignal(CameraMode)
