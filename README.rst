@@ -18,18 +18,6 @@ LayerView
     :alt: Supported Python implementation
     :target: https://pypi.org/project/layerview/
 
-.. image:: https://img.shields.io/github/workflow/status/majabojarska/LayerView/build?label=build&style=flat
-    :alt: LayerView build status on GitHub Actions
-    :target: https://github.com/majabojarska/LayerView/actions/workflows/build.yml
-
-.. image:: https://img.shields.io/github/workflow/status/majabojarska/LayerView/docs?label=docs&style=flat
-    :alt: Documentation build status on GitHub Actions
-    :target: https://github.com/majabojarska/LayerView/actions/workflows/docs.yml
-
-.. image:: https://img.shields.io/github/workflow/status/majabojarska/LayerView/lint?label=lint&style=flat
-    :alt: Code linting status on GitHub Actions
-    :target: https://github.com/majabojarska/LayerView/actions/workflows/lint.yml
-
 .. image:: https://img.shields.io/readthedocs/layerview?label=Read%20the%20Docs&style=flat
     :target: https://layerview.readthedocs.io/en/latest/
     :alt: Read the Docs documentation Status
