@@ -32,10 +32,6 @@ LayerView is a G-code file visualizer and inspector.
 * License: `GPLv3`_
 * Documentation: https://layerview.readthedocs.io.
 
-.. warning:: 
-
-    This project is unmaintained.
-
 Features
 --------
 
@@ -68,6 +64,14 @@ Run LayerView:
 See the `full documentation <https://layerview.readthedocs.io/en/latest/index.html>`_
 for more details on `installation <https://layerview.readthedocs.io/en/latest/installation.html>`_
 and `usage <https://layerview.readthedocs.io/en/latest/usage.html>`_.
+
+Contributing
+------------
+
+Contributions are welcome, and they are greatly appreciated!
+Every little bit helps, and credit will always be given.
+See the `Contributing <https://layerview.readthedocs.io/en/latest/contributing.html>`_
+page for more details on how to contribute to this project.
 
 Credits
 -------
